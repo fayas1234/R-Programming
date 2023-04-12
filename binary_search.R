@@ -10,7 +10,7 @@ mid=(low+high)%/%2
 
 flag=0
 index=mid
-while(low<high){
+while(low<=high){
   mid=(low+high)%/%2
   if(arr[mid]==key){
     index=mid
